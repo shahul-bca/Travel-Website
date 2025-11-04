@@ -1,9 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-
   return (
     <nav className="sticky top-0 bg-gray-800 text-white shadow-md z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -12,7 +10,6 @@ const Navbar = () => {
           <h1 className="text-2xl font-light">Make 
             <span className="text-red-400 font-bold">My</span><span className="text-white font-extrabold">trip</span>
           </h1>
-
           {/* Hamburger Menu (Small Screens) */}
           <div className="md:hidden">
             <button

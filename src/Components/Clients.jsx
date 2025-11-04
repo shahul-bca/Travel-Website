@@ -1,24 +1,22 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-
 const testimonials = [
   {
-    image: "src/assets/user1.jpg",
+    image: "assets/user1.jpg",
     name: "John Doe",
     quote: "This travel service is amazing! Highly recommend to anyone looking for a seamless experience.",
   },
   {
-    image: "src/assets/user2.jpg",
+    image: "assets/user2.jpg",
     name: "Jane Smith",
     quote: "A wonderful experience from start to finish. Excellent customer service!",
   },
   {
-    image: "src/assets/user3.jpg",
+    image: "/assets/user3.jpg",
     name: "Carlos Ruiz",
     quote: "They made my trip unforgettable! I will definitely book with them again.",
   },
 ];
-
 const Clients = () => {
   return (
     <div className="bg-gray-200 py-16 px-6 ">

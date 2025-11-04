@@ -11,7 +11,7 @@ const Home = () => {
     <section className="bg-gray-200">
     <div
       className="relative bg-cover h-screen bg-center"
-      style={{ backgroundImage: "url('/src/assets/homeBg.jpg')" }} 
+      style={{ backgroundImage: "url('./public/assets/homeBg.jpg')" }} 
     >
       <div className="flex flex-col items-center justify-center h-full text-center px-4">
         <motion.h1

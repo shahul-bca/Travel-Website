@@ -11,11 +11,12 @@ const Footer = () => {
     <footer className="bg-gray-800 text-gray-200 py-5 px-5">
       <div className="container mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-8">
         <div className="text-center md:text-left">
-          <h4 className="text-2xl font-light">Make<span className="text-red-400 font-bold">My</span><span className="text-white font-extrabold">Trip</span></h4>
-          
-          <p>
-            Your trusted partner for seamless travel experiences. 
-          </p>
+          <h4 className="text-2xl font-light">
+            Make<span className="text-red-400 font-bold">My</span>
+            <span className="text-white font-extrabold">Trip</span>
+          </h4>
+
+          <p>Your trusted partner for seamless travel experiences.</p>
           <div className=" text-gray-500 text-sm mt-5">
             &copy; {new Date().getFullYear()} TravelCo. All Rights Reserved.
           </div>
@@ -48,10 +49,7 @@ const Footer = () => {
             >
               <FaLinkedinIn />
             </a>
-            
           </div>
-         
-         
         </div>
       </div>
     </footer>

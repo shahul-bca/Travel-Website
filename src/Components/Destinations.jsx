@@ -1,33 +1,32 @@
 import React from "react";
-
 const destinations = [
   {
-    image: "src/assets/destination1.jpg",
+    image: "assets/destination1.jpg",
     title: "India",
     disc: "The Taj Mahal is a white marble mausoleum in Agra, India.",
   },
   {
-    image: "src/assets/destination2.jpg",
+    image: "assets/destination2.jpg",
     title: "UAE",
     disc: "The UAE consists of seven emirates and was founded on 2 December 1971 as a federation.",
   },
   {
-    image: "src/assets/destination3.jpg",
+    image: "assets/destination3.jpg",
     title: "Poland",
     disc: "Poland, officially the Republic of Poland, is a country in Central Europe.",
   },
   {
-    image: "src/assets/destination4.avif",
+    image: "assets/destination4.avif",
     title: "Malaysia",
     disc: "Malaysia is a country in Southeast Asia.",
   },
   {
-    image: "src/assets/destination5.avif",
+    image: "assets/destination5.avif",
     title: "England",
     disc: "England is the largest of the four constituent countries of the United Kingdom",
   },
   {
-    image: "src/assets/destination6.jpg",
+    image: "assets/destination6.jpg",
     title: "Australia",
     disc: "Australia is a federal parliamentary democracy and constitutional monarchy comprising six states and ten territories.",
   }
